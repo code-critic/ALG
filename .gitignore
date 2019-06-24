@@ -1,23 +1,23 @@
-# Compiled class file
-*.class
+# files in input and output dir will not be as a part of this repository
+**/problems/*/input/*
+**/problems/*/output/*
+**/problems/*/.error/*
 
-# Log file
-*.log
+# except the files ending with .s
+!**/problems/*/input/*.s
+!**/problems/*/output/*.s
 
-# BlueJ files
-*.ctxt
+# binary files will also be ignored
+**/problems/*/main
+**/problems/*/main.class
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# the results will not be part of a repository
+**/results/*
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# only README.md file will be allowed
+!**/results/README.md
+
+# ignore logs starting with dot (.)
+.*.log
+.error

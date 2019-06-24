@@ -1,0 +1,7 @@
+- id:         ahoj-svete              # nazev podslozky
+  name:       Ahoj světě
+  avail:      2020-03-11 16:00:00
+  reference:  main.java
+  tests:
+    - id:       case-1.s
+      timeout:  1.0
