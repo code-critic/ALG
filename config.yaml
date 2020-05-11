@@ -1,10 +1,11 @@
 name:     ALG
 desc:     Algoritmizace a programovaní
 access:   everyone
+disabled: true
 
 teachers:
-- jan.hybs
-- jana.vitvarova
-- jirina.kralovcova
+- id: jan.hybs
+- id: jana.vitvarova
+- id: jirina.kralovcova
 
 students: []
